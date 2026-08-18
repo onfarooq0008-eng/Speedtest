@@ -1,0 +1,21 @@
+{
+  "name": "swiftspeed-test",
+  "version": "1.0.0",
+  "description": "Professional internet speed test website with admin panel and ad management",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "ejs": "^3.1.10",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0"
+  }
+}
